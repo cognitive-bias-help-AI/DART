@@ -1,8 +1,8 @@
 """Independent OpenDART core."""
 
-from providers.dart.client import OpenDartClient
-from providers.dart.corp_code import DartCorpCodeResolver
-from providers.dart.models import (
+from .client import OpenDartClient
+from .corp_code import DartCorpCodeResolver
+from .models import (
     DartDisclosureRecord,
     DartFinancialIndicatorRecord,
     DartFinancialRecord,

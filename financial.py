@@ -5,8 +5,8 @@ from __future__ import annotations
 from collections.abc import Iterable
 from typing import Any
 
-from providers.dart.errors import require_success
-from providers.dart.models import DartFinancialRecord
+from .errors import require_success
+from .models import DartFinancialRecord
 
 
 def normalize_dart_amount(value: Any) -> int | None:

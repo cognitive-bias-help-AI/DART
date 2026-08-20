@@ -2,8 +2,8 @@
 
 from decimal import Decimal, InvalidOperation
 
-from providers.dart.errors import require_success
-from providers.dart.models import DartFinancialIndicatorRecord
+from .errors import require_success
+from .models import DartFinancialIndicatorRecord
 
 
 def _optional_text(value: object) -> str | None:

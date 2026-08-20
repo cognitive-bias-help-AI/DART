@@ -1,7 +1,7 @@
 """Parse OpenDART disclosure search metadata into DART domain records."""
 
-from providers.dart.errors import require_success
-from providers.dart.models import DartDisclosureRecord
+from .errors import require_success
+from .models import DartDisclosureRecord
 
 
 def _optional_text(value: object) -> str | None:
